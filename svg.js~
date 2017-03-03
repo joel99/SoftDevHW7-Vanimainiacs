@@ -54,8 +54,8 @@ var makeImg = function(x, y, h, w, link){
 
     c.setAttribute("height", h);
 
-    c.setAttribute("width", w);
-    //c.setAttribute("preserveAspectRatio", "xMidYMid");    
+    //c.setAttribute("width", w);
+    c.setAttribute("preserveAspectRatio", "xMidYMid");    
 
     return c;
     
